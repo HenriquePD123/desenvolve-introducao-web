@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <form action="formulario.html" method="post">
+            <p>
+                <label for="nome">NOME:</label>
+                <input type="text" placeholder="Digite aqui seu nome:" id="nome">
+            </p>
+            <p>
+                <label for="email">E-MAIL:</label>
+                <input type="email" placeholder="Digite aqui seu e-mail:" id="email">
+            </p>
+            <p>
+                <label for="numero">TELEFONE:</label>
+                <input type="number" placeholder="Digite aqui seu telefone:" id="numero">
+            </p>
+            <p>
+                Quantas pessoas moram com voce?
+            </p>
+            <p>    
+                <input type="radio" id="1" name="moradores">
+                <label for="1">1 pessoa.</label>
+            </p>
+            <p>
+                <input type="radio" id="2" name="moradores">
+                <label for="2">2 pessoas.</label>
+            </p>
+            <p>
+                <input type="radio" id="3" name="moradores">
+                <label for="3">3 ou mais.</label>
+            </p>
+            <p>
+                Qual sua media salarial?
+            </p>
+            <p>
+                <input type="radio" id="5" name="salario">
+                <label for="5">5000.</label>
+            </p>
+            <p>
+                <input type="radio" id="10" name="salario">
+                <label for="10">10000.</label>
+            </p>
+            <p>
+                <input type="radio" id="20" name="salario">
+                <label for="20">20000.</label>
+            </p>
+            <p>
+                Em qual regiao voce reside?
+                <select>
+                    <option>Norte</option>
+                    <option>Nordeste</option>
+                    <option>Centro-Oeste</option>
+                    <option>Sudeste</option>
+                    <option>Sul</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="autorizacao">
+                <label for="autorizacao">Eu autorizo o compartilhamento dos dados deste formulario.</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar formulario">
+            </p>
+        </form>
+    </body>
+</html>
